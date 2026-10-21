@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+main {
+    justify-items: center;
+}
+
+.horario {
+    width: 70%;
+    margin-top: 30px;
+}
+
+table, td, th {
+    border: 1px solid rgb(53, 164, 238);
+}
+
+table {
+    border-collapse: border;
+}
+
+td, th {
+    padding: 10px;
+}
+
+caption {
+    text-align: left;
+    font-size: 1.7rem;
+    font-weight: 555;
+    margin-bottom: 20px;
+}
+
+thead {
+    background-color: rgb(53, 164, 238);
+    color: black;
+}
+
+tbody th {
+    background-color: rgb(53, 164, 238);
+    font-size: 0.9rem;
+}
+
+.tecnica {
+    background-color: rgb(210, 174, 243);
+}
+
+.transversal {
+    background-color: rgb(255, 201, 100);
+}
+
+.proyecto {
+    background-color: rgb(164, 243, 177);
+}
+
+.libre {
+    background-color: rgb(255, 214, 214);
+}
+
+.pausa {
+    text-align: center;
+    font-style: italic;
+    background-color: rgb(192, 165, 115);
+}
+
+.ambiente {
+    display: block;
+    color: #333;
+    font-size: 0.7rem;
+}
+
+.tecnica:hover, .transversal:hover, .proyecto:hover, .libre:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
+tfoot {
+    text-align: right;
+    font-size: small;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+thead {
+    position: sticky;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
+}
